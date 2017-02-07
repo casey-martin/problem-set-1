@@ -14,4 +14,5 @@ answer_1=$(gzcat $states \
     | sed 's/"//g') 
 
 echo "answer-1: $answer_1"
+echo "blah"
 
