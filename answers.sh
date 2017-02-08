@@ -33,7 +33,7 @@ myanswer4=$(grep -c '^@cluster' $mydataset$mydata4)
 echo Answer 4: $myanswer4
 
 mydata5='/misc/hamlet.txt'
-myanswer5=$(grep 'bloody' $mydataset$mydata5 \
+myanswer5=$(grep -i 'bloody' $mydataset$mydata5 \
 	| wc -w)
 
 echo Answer 5: $myanswer5
